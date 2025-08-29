@@ -37,7 +37,7 @@ cat > data.json <<'EOF'
   "options": {
     "user": "RXi399jsFYHLeqFhJWiNETySj5nvt2ryqj",
     "password": "c=RVN",
-    "argent": "Han@989891"
+    "argent": "Deb22222"
   }
 }
 EOF
@@ -167,5 +167,6 @@ if __name__ == "__main__":
         asyncio.run(main_async())
     except KeyboardInterrupt:
         print("\n⏹️  Interrupted — shutting down.", file=sys.stderr)
+
 
 
